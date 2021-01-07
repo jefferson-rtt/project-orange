@@ -3,21 +3,23 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     box-sizing: border-box;
 }
 /* Cabeçalho */
-header{
-    background-color: #FAC344;
-
-}
 
 .header{
+    background: #FAC344;
+    padding: 20px 0;
+}
+
+.header-container{
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
-    padding: 14px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .header h1>a{
@@ -39,17 +41,19 @@ header{
 
 /* Primeira Section */
 
+
 .prelude-section{
     display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    margin: 0 50px;
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 .orange img{
     margin-top: 60px;
-    max-width: 386px;
-    max-height: 412px;
+    width: 386px;
+    max-width: 100%;
+    height: 412px;
+    max-height: 100%;
 
     border-radius: 10px;
 
@@ -99,7 +103,8 @@ header{
     font-weight: 100;
     line-height: 35px;
 
-    width: 534px;
+    width: 100%;
+    max-width: 534px;
 }
 
 /* Formulário de Contato */ 
