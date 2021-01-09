@@ -11,6 +11,7 @@
 .header{
     background: #FAC344;
     padding: 20px 0;
+
 }
 
 .header-container{
@@ -18,7 +19,11 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
     align-items: center;
+
+    
 
 }
 
@@ -27,25 +32,38 @@
     font-weight: 700;
 }
 
+.navbar{
+    justify-items: end;
+    flex-wrap: wrap;
+}
+
 .navbar a{
+
     padding: 10px;
     color: black;
-    margin: 0 20px;
-    transition: 0.3s; 
+
+    margin-left: 20px;
+
+    transition: 0.2s;
 }
 
 .navbar a:hover{
-    background: #e4a104;
-    border-radius: 18px;
+    color: white;
 }
 
-/* Primeira Section */
+/* Primeira Section - Initial*/
 
 
 .prelude-section{
     display: flex;
     margin: 0 auto;
     max-width: 960px;
+    justify-content: space-between;
+
+    margin-top: 80px;
+    flex-wrap: wrap;
+
+    
 }
 
 .orange img{
@@ -64,35 +82,40 @@
     font-weight: 700;
 }
 
-.prelude-title p::before{
-    content: '';
-}
 
 .prelude-title p{
     margin-top: 30px;
     font-size: 1.25em;
     font-weight: 100;
-    width: 534px;
+    max-width: 534px;
 
     line-height: 35px;
 }
 
-/* Segunda Section */
+/* Segunda Section - About */
 
-.prelude-about{
-    margin-top: 60px;
+.about-container{
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    margin: 0 50px;
+    justify-content: space-between;
+
+    margin-top: 80px;
+
+
+    flex-wrap: wrap-reverse;
+
 }
 
+
 .prelude-about img{
-    max-width: 386px;
-    max-height: 412px;
+    width: 386px;
+    height: 412;
+
 }
 
 .prelude-about h1{
+    text-align: right;
     font-size: 2.5em;
     font-weight: 700;
 }
@@ -101,29 +124,38 @@
     margin-top: 30px;
     font-size: 1.25em;
     font-weight: 100;
+    max-width: 534px;
+
+
+    text-align: right;
     line-height: 35px;
 
-    width: 100%;
-    max-width: 534px;
+
 }
 
 /* Formulário de Contato */ 
 
+.contact{
+    max-width: 960px;
+    margin: 0 auto;
+
+}
 
 .contact h1{
     margin-top: 60px;
     margin-bottom: 60px;   
     font-size: 2.5em;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
 }
 
 .contact-form{
     margin-top: 60px;
     display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    margin: 0 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap
+
 
 }
 
@@ -187,8 +219,6 @@
 /* Footer */ 
 
 .footer{
-    padding-left: 40px;
-
     background: #EEBB05 60%;
     height: 170px;
 }
@@ -197,3 +227,8 @@
     color: black;
 }
 
+.container-footer{
+    padding-top: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
