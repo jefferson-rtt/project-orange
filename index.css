@@ -271,3 +271,32 @@
 .redes-item img:hover{
     background: #e9a70c;
 }
+
+/* Corpyright */
+
+.credits{
+    background: black;
+    color: white;
+    
+}
+
+.credits a{
+    color: lightblue;
+    text-decoration: underline lightblue;
+}
+
+.credits a:hover{
+    color: #1588f3;
+    text-decoration: underline #1588f3;
+
+}
+
+.credits-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.credits-container span, p{
+    padding: 20px 10px;
+}
