@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 /* Cabeçalho */
@@ -78,7 +79,7 @@
 }
 
 .prelude-title h1{
-    font-size: 4.5em;
+    font-size: 4.55em;
     font-weight: 700;
 }
 
@@ -86,8 +87,8 @@
 .prelude-title p{
     margin-top: 30px;
     font-size: 1.25em;
-    font-weight: 100;
-    max-width: 534px;
+    font-weight: 200;
+    max-width: 400px;
 
     line-height: 35px;
 }
@@ -123,7 +124,7 @@
 .prelude-about p{
     margin-top: 30px;
     font-size: 1.25em;
-    font-weight: 100;
+    font-weight: 200;
     max-width: 534px;
 
 
@@ -162,7 +163,7 @@
 .contact-first p{
     margin-bottom: 40px;
     font-size: 1.25em;
-    font-weight: 100;
+    font-weight: 200;
     width: 434px;
     line-height: 35px;
 
