@@ -1,12 +1,16 @@
 <h1>Project-orange</h1>
 
 <h3>Sobre o projeto</h3>
-<p>Projeto desenvolvido para fins acadêmico, colocando em prática as propriedades do flex-box, e responsividade.</p>
+
+<span>O site é uma landing page, de uma empresa do ramo agrícola que vende laranjas.</span>
+
+<p><i>Projeto desenvolvido para fins acadêmico, colocando em prática as propriedades do flex-box, e responsividade.<i></p>
+
 <h3>Tecnologias utilizadas</h3>
 <ul>
     <li>HTML</li>
     <li>CSS</li>
 </ul>
 
-<p><a href="https://jefferson-rtt.github.io/project-orange"> Clique aqui </a> para visualizar o projeto numa page web static</p>
+<p><a href="https://jefferson-rtt.github.io/project-orange" target="_blank"> Clique aqui </a> para visualizar o projeto numa page web static</p>
 
