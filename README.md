@@ -12,5 +12,5 @@
     <li>CSS</li>
 </ul>
 
-<p><a href="https://jefferson-rtt.github.io/project-orange" target="_blank"> Clique aqui </a> para visualizar o projeto numa page web static</p>
+<p><a href="https://project-orange.vercel.app/" target="_blank"> Clique aqui </a> para visualizar o projeto numa page web static</p>
 
