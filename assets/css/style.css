@@ -38,12 +38,9 @@
 }
 
 .navbar a{
-
     padding: 10px;
     color: black;
-
     margin-left: 20px;
-
     transition: 0.2s;
 }
 
@@ -82,7 +79,6 @@
 .prelude-title p{
     margin-top: 30px;
     font-size: 1.25em;
-    font-weight: 200;
     width: 100%;
     max-width: 534px;
     line-height: 35px;
@@ -118,10 +114,10 @@
 .prelude-about p{
     margin-top: 30px;
     font-size: 1.25em;
-    font-weight: 200;
+    width: 100%;
     max-width: 534px;
-    text-align: right;
     line-height: 35px;
+    padding: 0;
 }
 
 /* Formulário de Contato */ 
@@ -154,7 +150,6 @@
 .contact-first p{
     margin-bottom: 40px;
     font-size: 1.25em;
-    font-weight: 200;
     max-width: 434px;
     line-height: 35px;
 
@@ -252,7 +247,6 @@
 
 .footer-about li{
     margin-bottom: 10px;
-    font-weight: 200;
 }
 
 .redes li{
