@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orange</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>Oranges</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon-32x32.png" type="image/x-icon">
+
 </head>
 <body>
     <header class="header">
@@ -32,14 +34,14 @@
                 </p>
             </div>
             <div class="orange">
-                <img src="./img/orange.png" alt="Laranjas">                   
+                <img src="./assets/img/orange.png" alt="Laranjas">                   
             </div>
         </section>
 
         <section class="prelude-about">
             <div class="about-container">
                 <div>
-                    <img src="./img/grajal.jpg" alt="Grajal de Laranjas">
+                    <img src="./assets/img/grajal.jpg" alt="Grajal de Laranjas">
                 </div>
                 <div>
                     <h1>Quem Somos?</h1>
@@ -50,26 +52,25 @@
 
         <aside class="contact">
             <h1>Contate-nos</h1>
-            
                 <div class="contact-form">
                     <div class="contact-first">
                         <div>
                             <p>Dê uma paradinha na nossa barraca ou em uma das lojas de produtos naturais listadas para pegar uma amostra grátis.</p>
                         </div>
                         <div>
-                            <img src="./img/map.png" alt="Nossa Localização">
+                            <img src="./assets/img/map.png" alt="Nossa Localização">
                         </div>
                     </div>
                     
                     <div class="contact-secund">
-                        <form>
-                            <p>Nome</p>
-                            <input type="text">
-                            <p>E-mail</p>
-                            <input type="email" placeholder="example@gmail.com" rrequired name=email>
-                            <p>Mensagem</p>
-                            <textarea nome="Mensagem" cols="30" rows="10"></textarea>
-                            <input type="button" value="Enviar">
+                        <form class="form" method="POST" >
+                            <label for="name">NOME</label>
+                            <input id="name" type="text" name="nome" required>
+                            <label for="email">EMAIL</label>
+                            <input id="email" type="email" placeholder="example@gmail.com" required name="email">
+                            <label for="message">MENSAGEM</label>
+                            <textarea id="message" nome="Mensagem" required cols="30" rows="10"></textarea>
+                            <input type="submit" value="Enviar">
                         </form>
                     </div>
                 </div>
@@ -93,9 +94,9 @@
                 <ul>
                     <li style="font-weight: bold;">Nossas Redes</li>
                     <div class="redes-item">
-                        <li><a href="https://www.facebook.com"><img src="./img/Facebook.svg" alt="Nossa página no Facebook"></a></li>
-                        <li><a href="https://www.twitter.com"><img src="./img/Twitter.svg" alt="Nossa página no Twitter"></a></li>
-                        <li><a href="https://www.instagram.com"><img src="./img/Instagram.svg" alt="Nossa página no Instagram"></a></li>
+                        <li><a href="https://www.facebook.com"><img src="./assets/img/Facebook.svg" alt="Nossa página no Facebook"></a></li>
+                        <li><a href="https://www.twitter.com"><img src="./assets/img/Twitter.svg" alt="Nossa página no Twitter"></a></li>
+                        <li><a href="https://www.instagram.com"><img src="./assets/img/Instagram.svg" alt="Nossa página no Instagram"></a></li>
                     </div>
                 </ul>
             </div>

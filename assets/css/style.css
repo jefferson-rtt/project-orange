@@ -16,7 +16,7 @@
 }
 
 .header-container{
-    width: 960px;
+    width: 1150px;
     max-width: calc(100% - 72px);
     margin: 0 auto;
     display: flex;
@@ -24,8 +24,6 @@
     flex-wrap: wrap;
     
     align-items: center;
-
-    
 
 }
 
@@ -59,24 +57,20 @@
 .prelude-section{
     display: flex;
     margin: 0 auto;
-    width: 960px;
+    width: 1150px;
     max-width: calc(100% - 72px);
     justify-content: space-between;
-
     margin-top: 80px;
-    flex-wrap: wrap;
-
-    
 }
 
 .orange img{
     margin-top: 60px;
+    min-width: 316px;
     width: 386px;
     max-width: 100%;
-    height: 412px;
+    height: auto;
 
     border-radius: 10px;
-
 }
 
 .prelude-title h1{
@@ -89,31 +83,29 @@
     margin-top: 30px;
     font-size: 1.25em;
     font-weight: 200;
+    width: 100%;
     max-width: 534px;
-
     line-height: 35px;
+    padding: 0;
 }
 
 /* Segunda Section - About */
 
 .about-container{
-    width: 960px;
+    width: 1150px;
     max-width: calc(100% - 72px);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
     margin-top: 80px;
-
-
-    flex-wrap: wrap-reverse;
-
 }
 
 
 .prelude-about img{
-    width: 386px;
-    height: 412px;
+    min-width: 316px;
+    width: 486px;
+    max-width: 100%;
+    height: auto;
 
 }
 
@@ -128,21 +120,16 @@
     font-size: 1.25em;
     font-weight: 200;
     max-width: 534px;
-
-
     text-align: right;
     line-height: 35px;
-
-
 }
 
 /* Formulário de Contato */ 
 
 .contact{
-    width: 960px;
+    width: 1150px;
     max-width: calc(100% - 72px);
     margin: 0 auto;
-
 }
 
 .contact h1{
@@ -158,24 +145,37 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    flex-wrap: wrap
+}
 
-
+.contact-first{
+    width: 100%;
 }
 
 .contact-first p{
     margin-bottom: 40px;
     font-size: 1.25em;
     font-weight: 200;
-    width: 434px;
+    max-width: 434px;
     line-height: 35px;
 
 }
 
 .contact-first img{
+    width: 100%;
     max-width: 386px;
     max-height: 412px; 
     border-radius: 10px;  
+}
+
+
+.contact-secund{
+    width: 100%;
+    max-width: 500px;
+}
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .contact-secund input{
@@ -184,7 +184,8 @@
     outline: none;
     margin-top: 5px;
     margin-bottom: 20px;
-    width: 386px;
+    width: 100%;
+    min-width: 300px;
     border: 0.2px solid #000000;
     border-radius: 50px;
     height: 40px;
@@ -193,24 +194,23 @@
 .contact-secund textarea{
     outline: none;
     resize: none;
-    width: 386px;
+    width: 100%;
     border-radius: 20px;
-
     padding: 10px;
-
 }
 
-.contact-secund [type="button"]{
+.contact-secund [type="submit"]{
     background: #FAC344;
-    width: 150px;
-    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    box-shadow: 0 0 6px 4px rgba(237, 203, 66, 0.317);
     border-radius: 34px;
     border: none;
     transition: 0.2s;
     cursor: pointer;
+    margin-top: 20px;
 }
 
-.contact-secund [type="button"]:hover{
+.contact-secund [type="submit"]:hover{
     background: #e9a70c;
     animation-direction: reverse;
 }
@@ -224,7 +224,6 @@
 
 .footer{
     background: #FAC344 60%;
-
 }
 
 .footer-container{
@@ -240,7 +239,7 @@
 }
 
 .footer-container{
-    width: 960px;
+    width: 1150px;
     max-width: calc(100% - 72px);
     margin: 0 auto;
     padding-top: 20px;
@@ -250,14 +249,6 @@
 
     flex-wrap: wrap;
 }
-
-/* @media only screen and (max-width: 600px) {
-    .footer-container{
-        justify-content: center;
-        padding: 0 40px;
-    }
-  } */
-
 
 .footer-about li{
     margin-bottom: 10px;
@@ -304,4 +295,43 @@
 
 .credits-container span, p{
     padding: 20px 10px;
+}
+
+/* Media query */
+
+@media (max-width: 1050px){
+    body{
+        font-size: 93.73%;
+    }
+}
+
+@media (max-width: 768px){
+    body {
+        font-size: 78.78%;
+    }
+}
+@media (max-width: 425px){
+    body{
+        font-size: 73%;
+    }
+    .header-container{
+        text-align: center;
+    }
+    .prelude-section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 50%;
+    }
 }
